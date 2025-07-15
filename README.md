@@ -25,6 +25,7 @@ This mini-project uses **Terraform** to provision an **S3 bucket** in AWS, tag i
 
 ## Project Structure
 
+```text
 terraform-mini/
 ├── main.tf
 ├── variables.tf
@@ -32,14 +33,11 @@ terraform-mini/
 ├── .gitignore
 ├── README.md
 ├── images/
-│ ├── terraform_plan_output.png
-│ ├── terraform_apply_output.png
-│ ├── s3_bucket_in_console.png
-│ └── terraform_destroy_output.png
+│   ├── terraform_plan_output.png
+│   ├── terraform_apply_output.png
+│   ├── s3_bucket_in_console.png
+│   └── terraform_destroy_output.png
 
-php
-Copy
-Edit
 
 ---
 

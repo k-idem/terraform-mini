@@ -66,7 +66,7 @@ terraform init -backend-config="bucket=$MY_BUCKET" -backend-config="region=$AWS_
 # Destroy resources (bucket must be empty!)
 terraform destroy --auto-approve -var="bucket_name=$MY_BUCKET" -var="region=$AWS_REGION"
 
-📸 Screenshots
+Screenshots
 * [Terraform Plan Output](images/terraform_plan_output.png)
 * [Terraform Apply Output](images/terraform_apply_output.png)
 * [S3 Bucket in AWS Console](images/s3_bucket_in_console.png)

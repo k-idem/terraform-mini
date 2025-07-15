@@ -4,7 +4,7 @@ This mini-project uses **Terraform** to provision an **S3 bucket** in AWS, tag i
 
 ---
 
-## 🧱 Tech Used
+## Tech Used
 
 - Terraform
 - AWS CLI
@@ -14,7 +14,7 @@ This mini-project uses **Terraform** to provision an **S3 bucket** in AWS, tag i
 
 ---
 
-## 🔧 What It Does
+## What It Does
 
 - Creates a tagged S3 bucket in AWS
 - Stores the Terraform state remotely in that bucket
@@ -23,7 +23,7 @@ This mini-project uses **Terraform** to provision an **S3 bucket** in AWS, tag i
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 .
 ├── main.tf
@@ -43,7 +43,7 @@ Edit
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 > You must have AWS CLI and Terraform installed, and your AWS credentials configured.
 
@@ -65,14 +65,12 @@ terraform init -backend-config="bucket=$MY_BUCKET" -backend-config="region=$AWS_
 
 # Destroy resources (bucket must be empty!)
 terraform destroy --auto-approve -var="bucket_name=$MY_BUCKET" -var="region=$AWS_REGION"
+
 📸 Screenshots
-Terraform Plan
-
-Terraform Apply
-
-Bucket in AWS Console
-
-Terraform Destroy
+* [Terraform Plan Output](images/terraform_plan_output.png)
+* [Terraform Apply Output](images/terraform_apply_output.png)
+* [S3 Bucket in AWS Console](images/s3_bucket_in_console.png)
+* [Terraform Destroy Output](images/terraform_destroy_output.png)
 
 Author
 Kenneth Idem

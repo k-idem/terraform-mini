@@ -63,7 +63,11 @@ terraform init -backend-config="bucket=$MY_BUCKET" -backend-config="region=$AWS_
 
 # Destroy resources (bucket must be empty!)
 terraform destroy --auto-approve -var="bucket_name=$MY_BUCKET" -var="region=$AWS_REGION"
+
+# Note: In production, force_destroy = true is usually avoided for safety. Instead, I manually cleared the bucket
+# before destroying it, as would be done in real-world environments to avoid deleting remote state unexpectedly.
 ```
+
 Screenshots
 * [Terraform Plan Output](images/terraform_plan_output.png)
 * [Terraform Apply Output](images/terraform_apply_output.png)

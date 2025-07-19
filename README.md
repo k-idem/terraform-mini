@@ -74,6 +74,8 @@ Screenshots
 * [S3 Bucket in AWS Console](images/s3_bucket_in_console.png)
 * [Terraform Destroy Output](images/terraform_destroy_output.png)
 
-Author
-Kenneth Idem
-github.com/k-idem
+---
+## Author
+
+Kenneth Idem  
+[github.com/k-idem](https://github.com/k-idem)
